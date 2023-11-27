@@ -110,6 +110,20 @@ body {
   background-color: #94d82d;
 }
 
+.card-subtitle .node {
+  border: 1px solid green;
+  background-color: green;
+}
+
+.card-subtitle .mongo {
+  border: 1px solid #51cf66;
+  background-color: #51cf66;
+}
+
+.card-subtitle .express {
+  border: 1px solid #fd7e14;
+  background-color: #fd7e14;
+}
 .card-subtitle .bootstrap {
   border: 1px solid #cc5de8;
   background-color: #cc5de8;
@@ -123,6 +137,10 @@ body {
 .card-subtitle .c {
   border: 1px solid #862e9c;
   background-color: #862e9c;
+}
+
+.card-subtitle span {
+  margin-bottom: 7px;
 }
 
 .card-body a {
